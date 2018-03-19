@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.mule.modules</groupId>
+    <groupId>f2cf8f42-4461-432e-81c8-6a472cc0d5a2</groupId>
     <artifactId>aws-lambda-connector</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-module</packaging>
@@ -15,13 +15,13 @@
     </parent>
     
 	 <distributionManagement>
-	  <repository>
-	    <uniqueVersion>false</uniqueVersion>
-            <id>e6c8356b-f191-46fe-8991-2ee0b1096472</id>
-            <name>Mulesoft Solutions Consulting</name>
-            <url>https://maven.anypoint.mulesoft.com/api/v1/organizations/e6c8356b-f191-46fe-8991-2ee0b1096472/maven</url>
-            <layout>default</layout>
-	  </repository>
+	    <repository>
+	      <uniqueVersion>false</uniqueVersion>
+	      <id>f2cf8f42-4461-432e-81c8-6a472cc0d5a2</id>
+	      <name>PacificLife Cloud Integration Repository</name>
+	      <url>https://maven.anypoint.mulesoft.com/api/v1/organizations/f2cf8f42-4461-432e-81c8-6a472cc0d5a2/maven</url>
+	      <layout>default</layout>
+	    </repository>
 	</distributionManagement>
     
     <dependencies>
@@ -38,6 +38,9 @@
         <category>Community</category>
         <licensePath>LICENSE.md</licensePath>
         <devkit.studio.package.skip>false</devkit.studio.package.skip>
+	    <mule.version>3.9.0</mule.version>
+	    <mule.tools.version>1.2</mule.tools.version>
+	    <type>template</type>
     </properties>
     <repositories>
         <repository>
